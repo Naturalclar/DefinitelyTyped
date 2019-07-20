@@ -359,6 +359,8 @@ const Profiler = React.unstable_Profiler;
 type ImgProps = React.ComponentProps<'img'>;
 // $ExpectType "async" | "auto" | "sync" | undefined
 type ImgPropsDecoding = ImgProps['decoding'];
+// $ExpectType "async" | "lazy" | "eager" | "auto" | undefined
+type ImgPropsLoading = ImgProps['loading'];
 type ImgPropsWithRef = React.ComponentPropsWithRef<'img'>;
 // $ExpectType ((instance: HTMLImageElement | null) => void) | RefObject<HTMLImageElement> | null | undefined
 type ImgPropsWithRefRef = ImgPropsWithRef['ref'];

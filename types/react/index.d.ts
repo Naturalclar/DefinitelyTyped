@@ -21,6 +21,7 @@
 //                 Saransh Kataria <https://github.com/saranshkataria>
 //                 Kanitkorn Sujautra <https://github.com/lukyth>
 //                 Sebastian Silbermann <https://github.com/eps1lon>
+//                 Jesse Katsumata <https://github.com/naturalclar>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
@@ -1928,6 +1929,7 @@ declare namespace React {
         crossOrigin?: "anonymous" | "use-credentials" | "";
         decoding?: "async" | "auto" | "sync";
         height?: number | string;
+        loading?: "lazy" | "eager" | "auto";
         sizes?: string;
         src?: string;
         srcSet?: string;
