@@ -1929,6 +1929,9 @@ declare namespace React {
         crossOrigin?: "anonymous" | "use-credentials" | "";
         decoding?: "async" | "auto" | "sync";
         height?: number | string;
+        /**
+         * @experimental Can be enabled in chrome via the #enable-lazy-image-loading feature flag
+         */
         loading?: "lazy" | "eager" | "auto";
         sizes?: string;
         src?: string;
